@@ -31,7 +31,7 @@ dataBaseConnection();
 app.get("/", async (req, res) => {
   return res
     .status(200)
-    .send("BlogBee... Server of  Blogger App Backend");
+    .send("Blogmaster... Server of  Blog creater App Backend");
 });
 
 //Routes
